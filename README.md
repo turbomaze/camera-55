@@ -5,7 +5,10 @@ Use a raspberry pi and off-the-shelf webcam to detect anomalous motion, send ema
 
 ## Development
 
-1. `python app.py`
+1. `cp run.sh.example run.sh`
+2. Update the secrets in `run.sh`
+3. Plug in a webcam.
+4. `python app.py`
 
 ## License
 MIT License: https://igliu.mit-license.org
